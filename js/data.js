@@ -5,7 +5,7 @@ const data = {
         { title: "Offer 3", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/3.jpg" },
         { title: "Offer 4", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/4.jpg" },
         { title: "Offer 5", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/5.jpg" },
-        { title: "Offer 6", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/5.jpg" },
+        { title: "Offer 6", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/6.jpg" },
         { title: "Offer 7", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/7.jpg" },
         { title: "Offer 8", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/8.jpg" },
         { title: "Offer 1", image: "https://raw.githubusercontent.com/RanemElnoury/Karam-El-Sham-Restaurant/main/Assets/1.jpg" },
