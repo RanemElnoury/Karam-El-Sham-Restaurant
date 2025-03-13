@@ -206,12 +206,12 @@ header {
             .nav-item {
                 a {
                     i {
-                        font-size: 8px;
+                        font-size: 6px;
                         margin-right: 4px;
 
                     }
 
-                    font-size: 6px !important;
+                    font-size: 5px !important;
                 }
             }
         }
