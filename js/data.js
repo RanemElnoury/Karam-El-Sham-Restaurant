@@ -1,7 +1,7 @@
 const data = {
     offers: [
-        { title: "Offer 1", image: "https://github.com/RanemElnoury/Karam-El-Sham-Restaurant/blob/main/Assets/1.jpg" },
-        { title: "Offer 2", image: "https://github.com/RanemElnoury/Karam-El-Sham-Restaurant/blob/main/Assets/2.jpg" },
+        { title: "Offer 1", image: "https://github.com/RanemElnoury/Karam-El-Sham-Restaurant/Assets/1.jpg" },
+        { title: "Offer 2", image: "https://github.com/RanemElnoury/Karam-El-Sham-Restaurant/Assets/2.jpg" },
         { title: "Offer 3", image: "https://github.com/RanemElnoury/Karam-El-Sham-Restaurant/blob/main/Assets/3.jpg" },
         { title: "Offer 4", image: "https://github.com/RanemElnoury/Karam-El-Sham-Restaurant/blob/main/Assets/4.jpg" },
         { title: "Offer 5", image: "https://github.com/RanemElnoury/Karam-El-Sham-Restaurant/blob/main/Assets/5.jpg" },
