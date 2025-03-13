@@ -19,9 +19,9 @@ const data = {
     ],
     menu: {
         sandwiches: [
-            { id: 1, title: "Maria Chicken Shawrma ", image: "..Assets/mariaChicken.jpg", price: 80 },
-            { id: 2, title: "Maria Meet Shawrma", image: "..Assets/mariaMeet.jpg", price: 120 },
-            { id: 3, title: "Maria  Mix Shawrma ", image: ../Assets/mariaMix.jpg", price: 100 },
+            { id: 1, title: "Maria Chicken Shawrma ", image: "../Assets/mariaChicken.jpg", price: 80 },
+            { id: 2, title: "Maria Meet Shawrma", image: "../Assets/mariaMeet.jpg", price: 120 },
+            { id: 3, title: "Maria  Mix Shawrma ", image: "../Assets/mariaMix.jpg", price: 100 },
             { id: 4, title: "Chicken soory", image: "../Assets/chickenSory.jpg", price: 70 },
             { id: 5, title: "Meet soory", image: "../Assets/meetSory.jpg", price: 85 },
             { id: 6, title: "Chicken French", image: "../Assets/chickenFrench.jpg", price: 70 },
