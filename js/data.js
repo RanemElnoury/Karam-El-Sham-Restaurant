@@ -1,4 +1,4 @@
-window.data = {
+const data = {
     offers: [
         { title: "Offer 1", image: "../Assets/1.jpg" },
         { title: "Offer 2", image: "../Assets/2.jpg" },
