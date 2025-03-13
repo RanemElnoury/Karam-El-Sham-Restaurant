@@ -1,6 +1,6 @@
 const data = {
     offers: [
-        { title: "Offer 1", image: "Assets/1.jpg" },
+        { title: "Offer 1", image: "./Assets/1.jpg" },
         { title: "Offer 2", image: "Assets/2.jpg" },
         { title: "Offer 3", image: "Assets/3.jpg" },
         { title: "Offer 4", image: "Assets/4.jpg" },
