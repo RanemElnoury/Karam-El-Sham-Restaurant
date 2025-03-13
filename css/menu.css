@@ -206,6 +206,27 @@ header {
             .nav-item {
                 a {
                     i {
+                        font-size: 9px;
+                        margin-right: 3px;
+
+                    }
+
+                    font-size: 7px !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+      .menu {
+        h1 {
+            font-size: 16px !important;
+        }
+
+        .nav-tabs {
+            .nav-item {
+                a {
+                    i {
                         font-size: 5px;
                         margin-right: 3px;
 
@@ -215,5 +236,4 @@ header {
                 }
             }
         }
-    }
 }
