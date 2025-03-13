@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="icon" type="image/jpg" href="Assets/logo2.png">
+    <title>Karam El-sham</title>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script>
+        Weglot.initialize({
+            api_key: 'wg_5eae5da1b78e306aaba59117d7c35fd86'
+        });
+    </script>
+</head>
+
+<body>
+    <div id="google_translate_element"></div>
+    <!-- start nav -->
+    <nav class="navbar-expand-lg navbar-light">
+        <div class="nav d-flex justify-content-between align-items-center">
+            <img src="Assets/logo.jpg" alt="logo Karam Elsham" class="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  active-link">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="cart.html"><button class="btn btn-warning"><i class="bi bi-cart"></i></button></a>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start header -->
+    <header id="home">
+        <div class="header">
+            <div class="row ">
+                <h1>Cart</h1>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start cart section -->
+    <section class="cart">
+        <div class="cart-container">
+            <h2>Shopping Cart</h2>
+            <div class="cart-items"></div>
+            <div class="empty">
+                <img src="Assets/Shopping-Cart.png" alt="">
+            </div>
+            <div class="cart-summary">
+                <h3>Total: <span id="total-price">0</span> EGP</h3>
+                <div class="d-flex justify-content-center">
+                    <button id="checkout-btn">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ✅ Modal Confirmation -->
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <h3>Confirm Your Order</h3>
+            <p>Are you sure you want to proceed with the order?</p>
+            <div class="modal-buttons">
+                <button id="cancel-order">Cancel</button>
+                <button id="confirm-order">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <!-- end cart section -->
+
+    <!-- Footer -->
+    <footer class=" text-lg-start  text-muted">
+        <section class="links d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/share/1ZMXvPyDd4/" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.menuegypt.com/karam-el-sham" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/karamelshamfoods?igsh=cHg2ZWxqNWNvZTZl" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.talabat.com/ar/egypt/restaurant/636522/karam-el-sham-agamy--bitash?aid=8335"
+                    class="me-4 ">
+                    <i class="fa fa-shopping-bag"></i>
+
+
+                </a>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class=" mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img src="Assets/logo.jpg" alt="logo karam elsham">
+                            Karam El-Sham
+                        </h6>
+                        <p>
+                            Karam El-Sham has multiple branches across Egypt, offering high-quality Syrian cuisine with
+                            authentic flavors and exceptional service.
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Company
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="about.html" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="menu.html" class="text-reset">Menu</a>
+                        </p>
+                        <p>
+                            <a href="contanct.html" class="text-reset">Contact</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 open">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            OPENEING
+                        </h6>
+                        <p>
+                            Every Day
+                        <p>
+                        <p>
+                            10AM - 01AM
+                        </p>
+
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p>
+                            <i class="fas fa-home me-3"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Karam El Sham" target="_blank">
+                                Montaza, Smouha, Mansoura, Downtown Cairo, Faisal
+                            </a>
+                        </p>
+
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            <a href="mailto:info@simpletouch-sw.com">info@simpletouch-sw.com</a>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> <a href="tel:19509">19509</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="designed text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Designed by
+            <a class="text-reset fw-bold"
+                href="https://www.linkedin.com/in/ranem-elnoury-909489205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Rneem
+                Elnoury</a>
+        </div>
+    </footer>
+    <!-- end Footer -->
+
+    <!-- arrow section -->
+    <div class="arrow">
+        <a href="#home" class="btn btn-warning">
+            <i class="bi bi-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/cart.js"></script>
+
+</body>
+
+</html>

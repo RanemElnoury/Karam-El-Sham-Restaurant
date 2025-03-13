@@ -1,0 +1,219 @@
+/* start header */
+header {
+    background-image: url(../Assets/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    padding-top: 150px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.85);
+        z-index: 1;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 47vh;
+        text-align: center;
+    }
+
+    h1 {
+        position: relative;
+
+        &::after,
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 5px;
+            width: 80px;
+            background-color: #F2A900;
+            margin-bottom: 15px;
+        }
+
+        &::after {
+            right: -27%;
+            bottom: 28%;
+        }
+
+        &::before {
+            left: -27%;
+            top: 45%;
+        }
+    }
+}
+/* end header */
+
+/* start menu section */
+.menu {
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 4%;
+    }
+
+    .nav-tabs {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4%;
+
+        .active {
+
+            border: 2px solid #F2A900;
+            border-bottom: none;
+        }
+
+        .nav-item {
+            margin: 0 10px;
+
+            a {
+                i {
+                    font-size: 24px;
+                    margin-right: 10px;
+                    color: #F2A900;
+                }
+
+                color: #333;
+                font-size: 20px;
+                font-weight: 550;
+                transition: color 0.3s ease;
+            }
+        }
+    }
+
+    .tab-content {
+        .food {
+            padding: 0 30px;
+
+            .food-card {
+                background: transparent;
+                border-radius: 10px;
+                transition: all 0.8s ease;
+                margin-bottom: 20px;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    height: 200px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
+
+                h4 {
+                    margin-top: 10px;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #e63946;
+                    font-weight: bold;
+                }
+
+                .add-to-cart {
+                    background: #F2A900;
+                    color: white;
+                    border: none;
+                    padding: 10px 15px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    font-weight: 550;
+                    width: 100%;
+                    visibility: hidden;
+                    transition: all 0.5s ease;
+                    letter-spacing: .05rem;
+                }
+
+                &:hover {
+                    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                    background: #fff;
+
+                    .add-to-cart {
+                        visibility: visible;
+                    }
+
+                    .remove-from-cart {
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+
+        .remove-from-cart {
+            background: #f54c09;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 550;
+            width: 100%;
+            transition: all 0.5s ease;
+            letter-spacing: .05rem;
+            visibility: hidden;
+        }
+    }
+}
+/* end menu section */
+
+@media (max-width: 800px) {
+    .header {
+        h1 {
+            font-size: 40px !important;
+
+            &::after,
+            &:before {
+                width: 70px;
+            }
+
+            &::after {
+                right: -40%;
+                bottom: 14%;
+            }
+
+            &::before {
+                left: -40%;
+                top: 45%;
+            }
+        }
+    }
+
+    .menu {
+        h1 {
+            font-size: 16px !important;
+        }
+
+        .nav-tabs {
+            .nav-item {
+                a {
+                    i {
+                        font-size: 10px;
+                        margin-right: 4px;
+
+                    }
+
+                    font-size: 8px !important;
+                }
+            }
+        }
+    }
+}
