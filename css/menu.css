@@ -200,19 +200,19 @@ header {
 
     .menu {
         h1 {
-            font-size: 16px !important;
+            font-size: 15px !important;
         }
 
         .nav-tabs {
             .nav-item {
                 a {
                     i {
-                        font-size: 3px;
-                        margin-right: 2px;
+                        font-size: 2px;
+                        margin-right: 1px;
 
                     }
 
-                    font-size: 2px !important;
+                    font-size: 1px !important;
                 }
             }
         }
