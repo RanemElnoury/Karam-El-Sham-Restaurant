@@ -51,8 +51,16 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!cart.some(item => Number(item.id) === Number(id))) {
             cart.push({ id: Number(id), name, price, image });
             localStorage.setItem("cart", JSON.stringify(cart));
+    
+            Swal.fire({
+                title: "Added to Cart!",
+                text: `${name} has been added successfully.`,
+                icon: "success",
+                confirmButtonText: "OK"
+            });
         }
     }
+    
 
     function removeFromCart(id) {
         let cart = JSON.parse(localStorage.getItem("cart")) || [];
